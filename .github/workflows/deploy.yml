@@ -25,7 +25,7 @@ jobs:
         run: npm run build
 
       - name: Heroku Application Name
-        run: echo ${{ secrets.HEROKU_API_KEY }}
+        run: echo "APP=${{ secrets.HEROKU_API_KEY }}"
 
       - name: Deploy to Heroku
         uses: akhileshns/heroku-deploy@v3.13.15
