@@ -34,3 +34,4 @@ jobs:
           heroku_app_name: "movie-manager-app"
           heroku_email: "halilsavascimail@gmail.com"
           dontautocreate: true
+          branch: prod
