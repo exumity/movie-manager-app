@@ -23,5 +23,5 @@ jobs:
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "movie-manager-app"
-          heroku_email: "halilsavascimail@gmail.com"
+          heroku_email: ${{secrets.HEROKU_EMAIL}}
           dontautocreate: true
